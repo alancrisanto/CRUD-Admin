@@ -1,0 +1,43 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-image: url("../assets/bg22.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100vh;
+}
+
+h1{
+  color: rgb(127, 19, 251);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  text-align: center;
+  font-size: 52px!important;
+  padding: 2rem 0 1rem;
+}
+
+.btn-agregar{
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.table{
+  color: white;
+}
+
+.busqueda_agregar{
+  display: flex;
+  justify-content: space-between;
+}
+.containerInput{
+  align-items: end;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}

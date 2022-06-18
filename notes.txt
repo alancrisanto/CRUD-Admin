@@ -1,0 +1,2 @@
+use venv
+example: entorno_flask
